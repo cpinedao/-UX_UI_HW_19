@@ -16,9 +16,11 @@
     display:grid;
 }
 
-.area{
-    margin: 0 auto;
+.comm {
+    position: relative;
+    left: 75%;
 }
+
 .gird-container{
     display:grid;
     grid-template-areas: 'myArea myArea';
@@ -39,4 +41,21 @@
         "SavingsPal"
         ;
     }
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    
+    color: #000;
+font-family: Antic;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.titles {
+     background-color: #C8BBAB; 
+     width: 1080px;
 }
